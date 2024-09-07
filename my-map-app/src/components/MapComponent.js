@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { capitals } from './site.js'; // 导入 capitals 数据
+import { capitals } from '../data/site.js'; // Import capitals data
+import Legend from './Legend'; // Import Legend component from the same directory
 
 const MapComponent = () => {
   useEffect(() => {
@@ -16,13 +17,14 @@ const MapComponent = () => {
 
     capitals.forEach((capital) => {
       const center = capital.center;
+      const color = capital.color; // Use the color from capitals data
       const circleMarker = new window.AMap.CircleMarker({
         center: center,
-        radius: 2 + Math.random() * 2,
+        radius: 3,
         strokeColor: 'white',
         strokeWeight: 2,
         strokeOpacity: 0.5,
-        fillColor: 'rgba(0,0,255,1)',
+        fillColor: color, // Set fill color based on the data
         fillOpacity: 0.5,
         zIndex: 10,
         bubble: true,
@@ -33,7 +35,12 @@ const MapComponent = () => {
     });
   }, []);
 
-  return <div id="map" style={{ width: '100%', height: '100%' }}></div>;
+  return (
+    <div id="map-container" style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <div id="map" style={{ width: '100%', height: '100%' }}></div>
+      <Legend />
+    </div>
+  );
 };
 
 export default MapComponent;

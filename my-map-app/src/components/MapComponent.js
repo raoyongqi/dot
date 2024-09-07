@@ -17,14 +17,14 @@ const MapComponent = () => {
 
     capitals.forEach((capital) => {
       const center = capital.center;
-      const color = capital.color; // Use the color from capitals data
+      const color = capital.color[0]; // Use only the color part (e.g., 'green') from the color array
       const circleMarker = new window.AMap.CircleMarker({
         center: center,
         radius: 3,
         strokeColor: 'white',
         strokeWeight: 2,
         strokeOpacity: 0.5,
-        fillColor: color, // Set fill color based on the data
+        fillColor: color, // Set fill color based on the color part of the data
         fillOpacity: 0.5,
         zIndex: 10,
         bubble: true,

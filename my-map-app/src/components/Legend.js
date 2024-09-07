@@ -1,12 +1,9 @@
 import React from 'react';
+import { capitals } from '../data/site.js'; // Import capitals data to get the color ranges
 
 const Legend = () => {
-  const legendItems = [
-    { color: 'green', label: 'Low PL' },
-    { color: 'yellow', label: 'Medium PL' },
-    { color: 'orange', label: 'High PL' },
-    { color: 'red', label: 'Very High PL' }
-  ];
+  // Get unique color and PL range pairs
+  const uniqueColorRanges = [...new Set(capitals.map(capital => JSON.stringify(capital.color)))].map(item => JSON.parse(item));
 
   return (
     <div style={{
@@ -22,16 +19,16 @@ const Legend = () => {
     }}>
       <h4>Legend</h4>
       <ul style={{ listStyleType: 'none', padding: 0 }}>
-        {legendItems.map((item, index) => (
+        {uniqueColorRanges.map((colorRange, index) => (
           <li key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
             <div style={{
               width: '20px',
               height: '20px',
-              backgroundColor: item.color,
+              backgroundColor: colorRange[0], // Use the color value
               marginRight: '10px',
               border: '1px solid #ddd'
             }}></div>
-            {item.label}
+            <span>{`PL: [${colorRange[1][0].toFixed(2)}, ${colorRange[1][1].toFixed(2)}]`}</span> {/* Display the PL range */}
           </li>
         ))}
       </ul>

@@ -27,10 +27,14 @@ grouped_df = merged_df.groupby('site').agg({
 }).reset_index()
 
 # Initialize KBinsDiscretizer
-discretizer = KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='uniform')
+n_bins = 4
+discretizer = KBinsDiscretizer(n_bins=n_bins, encode='ordinal', strategy='uniform')
 
 # Fit and transform PL values
 grouped_df['PL_category'] = discretizer.fit_transform(grouped_df[['PL']]).astype(int)
+
+# Get bin edges
+bin_edges = discretizer.bin_edges_[0]
 
 # Map categories to colors
 category_colors = {
@@ -42,7 +46,7 @@ category_colors = {
 grouped_df['color'] = grouped_df['PL_category'].map(category_colors)
 
 # Prepare data for JavaScript
-grouped_data = grouped_df[['lat', 'lon', 'PL', 'site', 'color']].dropna().to_dict(orient="records")
+grouped_data = grouped_df[['lat', 'lon', 'PL', 'site', 'color', 'PL_category']].dropna().to_dict(orient="records")
 
 # Generate JavaScript code
 js_code = 'export const capitals = [\n'
@@ -51,13 +55,16 @@ for row in grouped_data:
     site = f'"{row["site"]}"'
     center = f'[{row["lon"]}, {row["lat"]}]'
     pl = f'"{row["PL"]}"'
-    color = f'"{row["color"]}"'
+    # Format bin edges to 2 decimal places
+    lower_bound = f'{bin_edges[row["PL_category"]]:.2f}'
+    upper_bound = f'{bin_edges[row["PL_category"]+1]:.2f}'
+    color = f'["{row["color"]}", [{lower_bound}, {upper_bound}]]'
     js_code += f'  {{"site": {site}, "PL": {pl}, "center": {center}, "color": {color}}},\n'
 js_code += '];\n'
 
 # Write to JS file
-JS_LOC = 'my-map-app/src/site.js'
+JS_LOC = 'my-map-app/src/data/site.js'
 with open(JS_LOC, 'w') as file:
     file.write(js_code)
 
-print(f"JavaScript code has been written to {JS_LOC}")
+print(f"JavaScript code with color and PL ranges has been written to {JS_LOC}")

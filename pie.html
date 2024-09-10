@@ -154,6 +154,7 @@
 
     var pieSeries = [];
     function mean(...values) {
+      console.log(values)
     const sum = values.reduce((total, value) => total + value, 0);
     return sum / values.length;
 }
@@ -188,30 +189,55 @@
             }
           },
           // 小矩形，根据 PL 的值动态生成
-          ...Object.values(capital.PL).map((value, index) => {
-            const smallSize = 5; // 小矩形的大小
-            const positions = [
-              { x: layout[0] - size / 2, y: layout[1] - size / 2 }, // 左上
-              { x: layout[0] + size / 2 - smallSize, y: layout[1] - size / 2 }, // 右上
-              { x: layout[0] - size / 2, y: layout[1] + size / 2 - smallSize }, // 左下
-              { x: layout[0] + size / 2 - smallSize, y: layout[1] + size / 2 - smallSize } // 右下
-            ];
-            return {
-              type: 'rect',
-              shape: {
-                x: positions[index].x,
-                y: positions[index].y,
-                width: smallSize,
-                height: smallSize
-              },
-              style: {
-                fill: `rgba(0, 0, 255, ${value / maxPLValue})` // 根据 PL 的值调整颜色
-              }
-            };
-          })
+                // 小矩形，根据 PL 的值动态生成
+                
+                ...Object.values(capital.PL).map((value, index) => {
+    const radius = 2.5; // 扇形的半径
+    const lineWidth = 0; // 扇形的线宽
+    const centerX = layout[0]; // 圆心的 X 坐标
+    const centerY = layout[1]; // 圆心的 Y 坐标
+
+    // Function to calculate the end angle based on PL value
+    const getEndAngle = (value, maxPLValue) => {
+        // Calculate the progress as a fraction of the full circle
+        const progress = value / maxPLValue;
+        // Return the end angle in radians
+        return 2 * Math.PI * progress;
+    };
+
+    const endAngle = getEndAngle(value, maxPLValue);
+
+    // Determine the position of the fan shapes
+    const positions = [
+        { x: centerX - radius, y: centerY - radius }, // 左上
+        { x: centerX + radius, y: centerY - radius }, // 右上
+        { x: centerX - radius, y: centerY + radius }, // 左下
+        { x: centerX + radius, y: centerY + radius } // 右下
+    ];
+
+    return {
+        type: 'arc',
+        shape: {
+            cx: positions[index].x, // 圆心 X 坐标
+            cy: positions[index].y, // 圆心 Y 坐标
+            r: radius,
+            startAngle: -Math.PI / 2,
+            endAngle: endAngle - Math.PI / 2
+        },
+        style: {
+            stroke: 'purple',
+            lineWidth: lineWidth,
+            fill: 'rgba(128, 0, 128, 0.5)' // 填充紫色
+        }
+    };
+})
+
+
         ]
       };
     },
+
+    
     data: [{ value: mean(
         capital.PL.PL_1 || 0,
         capital.PL.PL_2 || 0,
@@ -221,8 +247,11 @@
     
   });
 });
-
-    console.log(pieSeries[0].data)
+pieSeries.forEach(pd => {
+    // 打印每个系列的 data 属性
+    console.log(pd);
+});
+    
 
     var option = {
       // amap component option

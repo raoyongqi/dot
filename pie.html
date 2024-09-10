@@ -158,9 +158,14 @@
     const sum = values.reduce((total, value) => total + value, 0);
     return sum / values.length;
 }
+const allMaxPLValues = capitals.map(capital => {
+    return Math.max(...Object.values(capital.PL));
+});
+
+// 从所有最大值中找到最大值
+const globalMaxPLValue = Math.max(...allMaxPLValues);
 
     capitals.map(capital => {
-    const maxPLValue = Math.max(...Object.values(capital.PL)); // 获取 PL 中的最大值
 
   // 添加自定义系列到 pieSeries
   pieSeries.push({
@@ -198,14 +203,15 @@
     const centerY = layout[1]; // 圆心的 Y 坐标
 
     // Function to calculate the end angle based on PL value
-    const getEndAngle = (value, maxPLValue) => {
+    const getEndAngle = (value, globalMaxPLValue) => {
         // Calculate the progress as a fraction of the full circle
-        const progress = value / maxPLValue;
+        const progress = value / globalMaxPLValue;
+        console.log(progress)
         // Return the end angle in radians
         return 2 * Math.PI * progress;
     };
 
-    const endAngle = getEndAngle(value, maxPLValue);
+    const endAngle = getEndAngle(value, globalMaxPLValue);
 
     // Determine the position of the fan shapes
     const positions = [

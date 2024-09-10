@@ -10,7 +10,10 @@ export const capitals = [
         "center": [
             106.2951444,
             36.58658611
-        ]
+        ],
+        "province": "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a",
+        "city": "\u4e2d\u536b\u5e02",
+        "district": "\u6d77\u539f\u53bf"
     },
     {
         "site": "2",
@@ -23,7 +26,10 @@ export const capitals = [
         "center": [
             106.4983528,
             37.34613056
-        ]
+        ],
+        "province": "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a",
+        "city": "\u5434\u5fe0\u5e02",
+        "district": "\u7ea2\u5bfa\u5821\u533a"
     },
     {
         "site": "3",
@@ -36,7 +42,10 @@ export const capitals = [
         "center": [
             107.0983167,
             37.76903333
-        ]
+        ],
+        "province": "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a",
+        "city": "\u5434\u5fe0\u5e02",
+        "district": "\u76d0\u6c60\u53bf"
     },
     {
         "site": "4",
@@ -49,7 +58,10 @@ export const capitals = [
         "center": [
             107.5423222,
             38.31731389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u9102\u6258\u514b\u524d\u65d7"
     },
     {
         "site": "5",
@@ -62,7 +74,10 @@ export const capitals = [
         "center": [
             107.9308139,
             39.161375
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u9102\u6258\u514b\u65d7"
     },
     {
         "site": "6",
@@ -75,7 +90,10 @@ export const capitals = [
         "center": [
             107.6734389,
             39.82690833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u9102\u6258\u514b\u65d7"
     },
     {
         "site": "7",
@@ -88,7 +106,10 @@ export const capitals = [
         "center": [
             107.5748,
             40.67210833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u676d\u9526\u65d7"
     },
     {
         "site": "8",
@@ -101,7 +122,10 @@ export const capitals = [
         "center": [
             107.671725,
             41.28364722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5df4\u5f66\u6dd6\u5c14\u5e02",
+        "district": "\u4e4c\u62c9\u7279\u4e2d\u65d7"
     },
     {
         "site": "9",
@@ -114,7 +138,10 @@ export const capitals = [
         "center": [
             108.39865,
             41.734175
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5df4\u5f66\u6dd6\u5c14\u5e02",
+        "district": "\u4e4c\u62c9\u7279\u4e2d\u65d7"
     },
     {
         "site": "10",
@@ -127,7 +154,10 @@ export const capitals = [
         "center": [
             107.866625,
             42.07049444
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5df4\u5f66\u6dd6\u5c14\u5e02",
+        "district": "\u4e4c\u62c9\u7279\u4e2d\u65d7"
     },
     {
         "site": "11",
@@ -140,7 +170,10 @@ export const capitals = [
         "center": [
             108.6435472,
             42.23232222
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5df4\u5f66\u6dd6\u5c14\u5e02",
+        "district": "\u4e4c\u62c9\u7279\u4e2d\u65d7"
     },
     {
         "site": "12",
@@ -153,7 +186,10 @@ export const capitals = [
         "center": [
             109.2819389,
             42.37846944
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5df4\u5f66\u6dd6\u5c14\u5e02",
+        "district": "\u4e4c\u62c9\u7279\u4e2d\u65d7"
     },
     {
         "site": "13",
@@ -166,7 +202,10 @@ export const capitals = [
         "center": [
             110.0081635,
             42.42117557
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5305\u5934\u5e02",
+        "district": "\u8fbe\u5c14\u7f55\u8302\u660e\u5b89\u8054\u5408\u65d7"
     },
     {
         "site": "14",
@@ -179,7 +218,10 @@ export const capitals = [
         "center": [
             110.1204722,
             41.90107222
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5305\u5934\u5e02",
+        "district": "\u8fbe\u5c14\u7f55\u8302\u660e\u5b89\u8054\u5408\u65d7"
     },
     {
         "site": "15",
@@ -192,7 +234,10 @@ export const capitals = [
         "center": [
             110.7938972,
             41.64873889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5305\u5934\u5e02",
+        "district": "\u8fbe\u5c14\u7f55\u8302\u660e\u5b89\u8054\u5408\u65d7"
     },
     {
         "site": "16",
@@ -205,7 +250,10 @@ export const capitals = [
         "center": [
             110.0464444,
             41.16969167
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5305\u5934\u5e02",
+        "district": "\u56fa\u9633\u53bf"
     },
     {
         "site": "17",
@@ -218,7 +266,10 @@ export const capitals = [
         "center": [
             110.7260972,
             40.90486944
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5305\u5934\u5e02",
+        "district": "\u56fa\u9633\u53bf"
     },
     {
         "site": "18",
@@ -231,7 +282,10 @@ export const capitals = [
         "center": [
             111.5551758,
             41.06485693
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u548c\u6d69\u7279\u5e02",
+        "district": "\u6b66\u5ddd\u53bf"
     },
     {
         "site": "19",
@@ -244,7 +298,10 @@ export const capitals = [
         "center": [
             111.0260194,
             42.14341667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u56db\u5b50\u738b\u65d7"
     },
     {
         "site": "20",
@@ -257,7 +314,10 @@ export const capitals = [
         "center": [
             110.8034056,
             42.72433611
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u56db\u5b50\u738b\u65d7"
     },
     {
         "site": "21",
@@ -270,7 +330,10 @@ export const capitals = [
         "center": [
             111.2912556,
             43.10095
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u56db\u5b50\u738b\u65d7"
     },
     {
         "site": "22",
@@ -283,7 +346,10 @@ export const capitals = [
         "center": [
             111.4853278,
             42.54927222
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u56db\u5b50\u738b\u65d7"
     },
     {
         "site": "23",
@@ -296,7 +362,10 @@ export const capitals = [
         "center": [
             111.5631139,
             41.79689167
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u56db\u5b50\u738b\u65d7"
     },
     {
         "site": "24",
@@ -309,7 +378,10 @@ export const capitals = [
         "center": [
             112.4264444,
             41.39584167
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u5bdf\u54c8\u5c14\u53f3\u7ffc\u4e2d\u65d7"
     },
     {
         "site": "25",
@@ -322,7 +394,10 @@ export const capitals = [
         "center": [
             112.5656861,
             40.83958333
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u4e4c\u5170\u5bdf\u5e03\u5e02",
+        "district": "\u5353\u8d44\u53bf"
     },
     {
         "site": "26",
@@ -335,7 +410,10 @@ export const capitals = [
         "center": [
             114.5444417,
             41.01363056
-        ]
+        ],
+        "province": "\u6cb3\u5317\u7701",
+        "city": "\u5f20\u5bb6\u53e3\u5e02",
+        "district": "\u5f20\u5317\u53bf"
     },
     {
         "site": "27",
@@ -348,7 +426,10 @@ export const capitals = [
         "center": [
             115.0648472,
             41.661825
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u592a\u4ec6\u5bfa\u65d7"
     },
     {
         "site": "28",
@@ -361,7 +442,10 @@ export const capitals = [
         "center": [
             115.5543167,
             42.16949722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u6b63\u84dd\u65d7"
     },
     {
         "site": "29",
@@ -374,7 +458,10 @@ export const capitals = [
         "center": [
             115.9037639,
             42.74706944
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u6b63\u84dd\u65d7"
     },
     {
         "site": "30",
@@ -387,7 +474,10 @@ export const capitals = [
         "center": [
             116.1019139,
             43.34534444
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u963f\u5df4\u560e\u65d7"
     },
     {
         "site": "31",
@@ -400,7 +490,10 @@ export const capitals = [
         "center": [
             115.9053361,
             43.93831111
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u9521\u6797\u6d69\u7279\u5e02"
     },
     {
         "site": "32",
@@ -413,7 +506,10 @@ export const capitals = [
         "center": [
             114.856955,
             43.99247512
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u963f\u5df4\u560e\u65d7"
     },
     {
         "site": "33",
@@ -426,7 +522,10 @@ export const capitals = [
         "center": [
             114.3363472,
             44.40805833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u963f\u5df4\u560e\u65d7"
     },
     {
         "site": "34",
@@ -439,7 +538,10 @@ export const capitals = [
         "center": [
             114.6475694,
             44.88246944
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u963f\u5df4\u560e\u65d7"
     },
     {
         "site": "35",
@@ -452,7 +554,10 @@ export const capitals = [
         "center": [
             115.2900194,
             45.02226389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u963f\u5df4\u560e\u65d7"
     },
     {
         "site": "36",
@@ -465,7 +570,10 @@ export const capitals = [
         "center": [
             115.8270778,
             44.62363889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u9521\u6797\u6d69\u7279\u5e02"
     },
     {
         "site": "37",
@@ -478,7 +586,10 @@ export const capitals = [
         "center": [
             116.7330389,
             44.32511389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u897f\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "38",
@@ -491,7 +602,10 @@ export const capitals = [
         "center": [
             117.4349083,
             44.68466944
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u897f\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "39",
@@ -504,7 +618,10 @@ export const capitals = [
         "center": [
             117.2105,
             45.21218056
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "40",
@@ -517,7 +634,10 @@ export const capitals = [
         "center": [
             116.6787931,
             45.5961746
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "41",
@@ -530,7 +650,10 @@ export const capitals = [
         "center": [
             117.6373917,
             45.66778889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "42",
@@ -543,7 +666,10 @@ export const capitals = [
         "center": [
             118.4758667,
             45.74175
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "43",
@@ -556,7 +682,10 @@ export const capitals = [
         "center": [
             119.2680361,
             45.82848333
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "44",
@@ -569,7 +698,10 @@ export const capitals = [
         "center": [
             119.3749222,
             46.53251667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e1c\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "45",
@@ -582,7 +714,10 @@ export const capitals = [
         "center": [
             119.6817806,
             47.328925
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u963f\u5c14\u5c71\u5e02"
     },
     {
         "site": "46",
@@ -595,7 +730,10 @@ export const capitals = [
         "center": [
             119.0115722,
             47.80033889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u65b0\u5df4\u5c14\u864e\u5de6\u65d7"
     },
     {
         "site": "47",
@@ -608,7 +746,10 @@ export const capitals = [
         "center": [
             118.144675,
             48.24102778
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u65b0\u5df4\u5c14\u864e\u5de6\u65d7"
     },
     {
         "site": "48",
@@ -621,7 +762,10 @@ export const capitals = [
         "center": [
             117.1618889,
             48.49223333
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u65b0\u5df4\u5c14\u864e\u53f3\u65d7"
     },
     {
         "site": "49",
@@ -634,7 +778,10 @@ export const capitals = [
         "center": [
             116.9769,
             48.9883
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u65b0\u5df4\u5c14\u864e\u53f3\u65d7"
     },
     {
         "site": "50",
@@ -647,7 +794,10 @@ export const capitals = [
         "center": [
             117.4845083,
             49.56368056
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u6ee1\u6d32\u91cc\u5e02"
     },
     {
         "site": "51",
@@ -660,7 +810,10 @@ export const capitals = [
         "center": [
             118.4070722,
             49.76225556
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9648\u5df4\u5c14\u864e\u65d7"
     },
     {
         "site": "52",
@@ -673,7 +826,10 @@ export const capitals = [
         "center": [
             119.2011306,
             50.00685833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9648\u5df4\u5c14\u864e\u65d7"
     },
     {
         "site": "53",
@@ -686,7 +842,10 @@ export const capitals = [
         "center": [
             120.2077389,
             50.14539722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u989d\u5c14\u53e4\u7eb3\u5e02"
     },
     {
         "site": "54",
@@ -699,7 +858,10 @@ export const capitals = [
         "center": [
             119.7261083,
             49.60384722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9648\u5df4\u5c14\u864e\u65d7"
     },
     {
         "site": "55",
@@ -712,7 +874,10 @@ export const capitals = [
         "center": [
             119.6240667,
             49.08613889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9102\u6e29\u514b\u65cf\u81ea\u6cbb\u65d7"
     },
     {
         "site": "56",
@@ -725,7 +890,10 @@ export const capitals = [
         "center": [
             118.9125639,
             48.86528889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9648\u5df4\u5c14\u864e\u65d7"
     },
     {
         "site": "57",
@@ -738,7 +906,10 @@ export const capitals = [
         "center": [
             119.7121833,
             48.0743
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u65b0\u5df4\u5c14\u864e\u5de6\u65d7"
     },
     {
         "site": "58",
@@ -751,7 +922,10 @@ export const capitals = [
         "center": [
             119.8306667,
             48.67098611
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u4f26\u8d1d\u5c14\u5e02",
+        "district": "\u9102\u6e29\u514b\u65cf\u81ea\u6cbb\u65d7"
     },
     {
         "site": "59",
@@ -764,7 +938,10 @@ export const capitals = [
         "center": [
             119.9805972,
             46.76349722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u79d1\u5c14\u6c81\u53f3\u7ffc\u524d\u65d7"
     },
     {
         "site": "60",
@@ -777,7 +954,10 @@ export const capitals = [
         "center": [
             120.4746944,
             46.32086111
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u79d1\u5c14\u6c81\u53f3\u7ffc\u524d\u65d7"
     },
     {
         "site": "61",
@@ -790,7 +970,10 @@ export const capitals = [
         "center": [
             121.1530083,
             46.28346389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u79d1\u5c14\u6c81\u53f3\u7ffc\u524d\u65d7"
     },
     {
         "site": "62",
@@ -803,7 +986,10 @@ export const capitals = [
         "center": [
             121.4955444,
             45.69652778
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u7a81\u6cc9\u53bf"
     },
     {
         "site": "63",
@@ -816,7 +1002,10 @@ export const capitals = [
         "center": [
             120.885625,
             45.496725
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u5174\u5b89\u76df",
+        "district": "\u79d1\u5c14\u6c81\u53f3\u7ffc\u4e2d\u65d7"
     },
     {
         "site": "64",
@@ -829,7 +1018,10 @@ export const capitals = [
         "center": [
             120.3923472,
             45.10923889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u901a\u8fbd\u5e02",
+        "district": "\u624e\u9c81\u7279\u65d7"
     },
     {
         "site": "65",
@@ -842,7 +1034,10 @@ export const capitals = [
         "center": [
             119.742085,
             45.40843338
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u901a\u8fbd\u5e02",
+        "district": "\u624e\u9c81\u7279\u65d7"
     },
     {
         "site": "66",
@@ -855,7 +1050,10 @@ export const capitals = [
         "center": [
             119.1203083,
             45.11630556
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u897f\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "67",
@@ -868,7 +1066,10 @@ export const capitals = [
         "center": [
             118.4106528,
             44.75059167
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u897f\u4e4c\u73e0\u7a46\u6c81\u65d7"
     },
     {
         "site": "68",
@@ -881,7 +1082,10 @@ export const capitals = [
         "center": [
             118.9378806,
             44.30918611
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u8d64\u5cf0\u5e02",
+        "district": "\u5df4\u6797\u5de6\u65d7"
     },
     {
         "site": "69",
@@ -894,7 +1098,10 @@ export const capitals = [
         "center": [
             118.818325,
             43.79653333
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u8d64\u5cf0\u5e02",
+        "district": "\u5df4\u6797\u53f3\u65d7"
     },
     {
         "site": "70",
@@ -907,7 +1114,10 @@ export const capitals = [
         "center": [
             118.6801111,
             43.32023889
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u8d64\u5cf0\u5e02",
+        "district": "\u5df4\u6797\u53f3\u65d7"
     },
     {
         "site": "71",
@@ -920,7 +1130,10 @@ export const capitals = [
         "center": [
             118.4897167,
             42.860825
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u8d64\u5cf0\u5e02",
+        "district": "\u7fc1\u725b\u7279\u65d7"
     },
     {
         "site": "72",
@@ -933,7 +1146,10 @@ export const capitals = [
         "center": [
             118.2599667,
             42.41664722
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u8d64\u5cf0\u5e02",
+        "district": "\u677e\u5c71\u533a"
     },
     {
         "site": "73",
@@ -946,7 +1162,10 @@ export const capitals = [
         "center": [
             116.9471611,
             42.14293056
-        ]
+        ],
+        "province": "\u6cb3\u5317\u7701",
+        "city": "\u627f\u5fb7\u5e02",
+        "district": "\u56f4\u573a\u6ee1\u65cf\u8499\u53e4\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "74",
@@ -959,7 +1178,10 @@ export const capitals = [
         "center": [
             116.3143528,
             42.22546389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u591a\u4f26\u53bf"
     },
     {
         "site": "75",
@@ -972,7 +1194,10 @@ export const capitals = [
         "center": [
             114.9607583,
             42.36788056
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u6b63\u9576\u767d\u65d7"
     },
     {
         "site": "76",
@@ -985,7 +1210,10 @@ export const capitals = [
         "center": [
             114.5547111,
             42.94813611
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "77",
@@ -998,7 +1226,10 @@ export const capitals = [
         "center": [
             114.2116861,
             43.48691667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "78",
@@ -1011,7 +1242,10 @@ export const capitals = [
         "center": [
             113.6372556,
             43.92391389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "79",
@@ -1024,7 +1258,10 @@ export const capitals = [
         "center": [
             113.1571694,
             44.42975833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "80",
@@ -1037,7 +1274,10 @@ export const capitals = [
         "center": [
             112.362225,
             44.58740556
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "81",
@@ -1050,7 +1290,10 @@ export const capitals = [
         "center": [
             112.0587167,
             44.15485556
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "82",
@@ -1063,7 +1306,10 @@ export const capitals = [
         "center": [
             112.1624,
             43.65648333
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u4e8c\u8fde\u6d69\u7279\u5e02"
     },
     {
         "site": "83",
@@ -1076,7 +1322,10 @@ export const capitals = [
         "center": [
             112.9054028,
             43.70611667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u5de6\u65d7"
     },
     {
         "site": "84",
@@ -1089,7 +1338,10 @@ export const capitals = [
         "center": [
             113.0004139,
             43.25316667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u53f3\u65d7"
     },
     {
         "site": "85",
@@ -1102,7 +1354,10 @@ export const capitals = [
         "center": [
             112.6741639,
             42.82763056
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u53f3\u65d7"
     },
     {
         "site": "86",
@@ -1115,7 +1370,10 @@ export const capitals = [
         "center": [
             112.9084944,
             42.38191667
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u82cf\u5c3c\u7279\u53f3\u65d7"
     },
     {
         "site": "87",
@@ -1128,7 +1386,10 @@ export const capitals = [
         "center": [
             113.6172222,
             42.33605556
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u9576\u9ec4\u65d7"
     },
     {
         "site": "88",
@@ -1141,7 +1402,10 @@ export const capitals = [
         "center": [
             114.3079972,
             42.40484167
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9521\u6797\u90ed\u52d2\u76df",
+        "district": "\u9576\u9ec4\u65d7"
     },
     {
         "site": "89",
@@ -1154,7 +1418,10 @@ export const capitals = [
         "center": [
             113.9553111,
             41.08728889
-        ]
+        ],
+        "province": "\u6cb3\u5317\u7701",
+        "city": "\u5f20\u5bb6\u53e3\u5e02",
+        "district": "\u5c1a\u4e49\u53bf"
     },
     {
         "site": "90",
@@ -1167,7 +1434,10 @@ export const capitals = [
         "center": [
             112.047,
             40.22621389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u548c\u6d69\u7279\u5e02",
+        "district": "\u548c\u6797\u683c\u5c14\u53bf"
     },
     {
         "site": "91",
@@ -1180,7 +1450,10 @@ export const capitals = [
         "center": [
             111.3957833,
             40.08550278
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u547c\u548c\u6d69\u7279\u5e02",
+        "district": "\u6e05\u6c34\u6cb3\u53bf"
     },
     {
         "site": "92",
@@ -1193,7 +1466,10 @@ export const capitals = [
         "center": [
             110.8026306,
             39.80082778
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u51c6\u683c\u5c14\u65d7"
     },
     {
         "site": "93",
@@ -1206,7 +1482,10 @@ export const capitals = [
         "center": [
             109.4154194,
             39.56326389
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u4f0a\u91d1\u970d\u6d1b\u65d7"
     },
     {
         "site": "94",
@@ -1219,7 +1498,10 @@ export const capitals = [
         "center": [
             108.8272528,
             39.00315833
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u4e4c\u5ba1\u65d7"
     },
     {
         "site": "95",
@@ -1232,7 +1514,10 @@ export const capitals = [
         "center": [
             108.4522333,
             38.27358611
-        ]
+        ],
+        "province": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
+        "city": "\u9102\u5c14\u591a\u65af\u5e02",
+        "district": "\u4e4c\u5ba1\u65d7"
     },
     {
         "site": "96",
@@ -1245,7 +1530,10 @@ export const capitals = [
         "center": [
             104.8720517,
             36.98690331
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u767d\u94f6\u5e02",
+        "district": "\u9756\u8fdc\u53bf"
     },
     {
         "site": "97",
@@ -1258,7 +1546,10 @@ export const capitals = [
         "center": [
             104.8835778,
             36.31803611
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u767d\u94f6\u5e02",
+        "district": "\u9756\u8fdc\u53bf"
     },
     {
         "site": "98",
@@ -1271,7 +1562,10 @@ export const capitals = [
         "center": [
             105.0095889,
             35.792125
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u767d\u94f6\u5e02",
+        "district": "\u4f1a\u5b81\u53bf"
     },
     {
         "site": "99",
@@ -1284,7 +1578,10 @@ export const capitals = [
         "center": [
             102.2699444,
             36.44061389
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u4e1c\u5e02",
+        "district": "\u4e50\u90fd\u533a"
     },
     {
         "site": "100",
@@ -1297,7 +1594,10 @@ export const capitals = [
         "center": [
             101.4858389,
             36.61646944
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u897f\u5b81\u5e02",
+        "district": "\u6e5f\u4e2d\u533a"
     },
     {
         "site": "101",
@@ -1310,7 +1610,10 @@ export const capitals = [
         "center": [
             99.63801944,
             37.14275556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5317\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u521a\u5bdf\u53bf"
     },
     {
         "site": "102",
@@ -1323,7 +1626,10 @@ export const capitals = [
         "center": [
             99.02783889,
             37.32379444
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5929\u5cfb\u53bf"
     },
     {
         "site": "103",
@@ -1336,7 +1642,10 @@ export const capitals = [
         "center": [
             98.425625,
             36.96548333
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u4e4c\u5170\u53bf"
     },
     {
         "site": "104",
@@ -1349,7 +1658,10 @@ export const capitals = [
         "center": [
             98.04460833,
             37.36252778
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u4ee4\u54c8\u5e02"
     },
     {
         "site": "105",
@@ -1362,7 +1674,10 @@ export const capitals = [
         "center": [
             97.36427222,
             37.40338611
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u4ee4\u54c8\u5e02"
     },
     {
         "site": "106",
@@ -1375,7 +1690,10 @@ export const capitals = [
         "center": [
             96.62486111,
             37.383575
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u4ee4\u54c8\u5e02"
     },
     {
         "site": "107",
@@ -1388,7 +1706,10 @@ export const capitals = [
         "center": [
             95.70986667,
             37.54736944
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde\u76f4\u8f96"
     },
     {
         "site": "108",
@@ -1401,7 +1722,10 @@ export const capitals = [
         "center": [
             95.13102778,
             37.95221944
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde\u76f4\u8f96"
     },
     {
         "site": "109",
@@ -1414,7 +1738,10 @@ export const capitals = [
         "center": [
             94.491775,
             38.12005556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde\u76f4\u8f96"
     },
     {
         "site": "110",
@@ -1427,7 +1754,10 @@ export const capitals = [
         "center": [
             93.37986944,
             38.66822778
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u832b\u5d16\u5e02"
     },
     {
         "site": "111",
@@ -1440,7 +1770,10 @@ export const capitals = [
         "center": [
             91.23662222,
             37.96693056
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u832b\u5d16\u5e02"
     },
     {
         "site": "112",
@@ -1453,7 +1786,10 @@ export const capitals = [
         "center": [
             92.37061667,
             37.40718889
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u832b\u5d16\u5e02"
     },
     {
         "site": "113",
@@ -1466,7 +1802,10 @@ export const capitals = [
         "center": [
             93.16398056,
             36.91881111
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u683c\u5c14\u6728\u5e02"
     },
     {
         "site": "114",
@@ -1479,7 +1818,10 @@ export const capitals = [
         "center": [
             94.22357778,
             36.55554167
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u683c\u5c14\u6728\u5e02"
     },
     {
         "site": "115",
@@ -1492,7 +1834,10 @@ export const capitals = [
         "center": [
             95.68600278,
             36.44644722
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u683c\u5c14\u6728\u5e02"
     },
     {
         "site": "116",
@@ -1505,7 +1850,10 @@ export const capitals = [
         "center": [
             96.76588889,
             36.34037778
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u90fd\u5170\u53bf"
     },
     {
         "site": "117",
@@ -1518,7 +1866,10 @@ export const capitals = [
         "center": [
             97.33928611,
             36.12081111
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u90fd\u5170\u53bf"
     },
     {
         "site": "118",
@@ -1531,7 +1882,10 @@ export const capitals = [
         "center": [
             98.17658889,
             34.89139167
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u739b\u591a\u53bf"
     },
     {
         "site": "119",
@@ -1544,7 +1898,10 @@ export const capitals = [
         "center": [
             97.77916111,
             34.19548611
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u739b\u591a\u53bf"
     },
     {
         "site": "120",
@@ -1557,7 +1914,10 @@ export const capitals = [
         "center": [
             97.18210556,
             33.70026667
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u79f0\u591a\u53bf"
     },
     {
         "site": "121",
@@ -1570,7 +1930,10 @@ export const capitals = [
         "center": [
             96.11561944,
             33.46354444
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7389\u6811\u5e02"
     },
     {
         "site": "122",
@@ -1583,7 +1946,10 @@ export const capitals = [
         "center": [
             95.74113056,
             34.26034167
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u66f2\u9ebb\u83b1\u53bf"
     },
     {
         "site": "123",
@@ -1596,7 +1962,10 @@ export const capitals = [
         "center": [
             94.90870833,
             34.84655278
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u66f2\u9ebb\u83b1\u53bf"
     },
     {
         "site": "124",
@@ -1609,7 +1978,10 @@ export const capitals = [
         "center": [
             93.05199722,
             35.18738333
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6cbb\u591a\u53bf"
     },
     {
         "site": "125",
@@ -1622,7 +1994,10 @@ export const capitals = [
         "center": [
             92.01004722,
             33.55946389
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u683c\u5c14\u6728\u5e02"
     },
     {
         "site": "126",
@@ -1635,7 +2010,10 @@ export const capitals = [
         "center": [
             92.42233889,
             29.91128611
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u6797\u829d\u5e02",
+        "district": "\u5de5\u5e03\u6c5f\u8fbe\u53bf"
     },
     {
         "site": "127",
@@ -1648,7 +2026,10 @@ export const capitals = [
         "center": [
             90.94962222,
             29.54985556
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u62c9\u8428\u5e02",
+        "district": "\u66f2\u6c34\u53bf"
     },
     {
         "site": "128",
@@ -1661,7 +2042,10 @@ export const capitals = [
         "center": [
             90.39163889,
             29.05575833
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u5c71\u5357\u5e02",
+        "district": "\u6d6a\u5361\u5b50\u53bf"
     },
     {
         "site": "129",
@@ -1674,7 +2058,10 @@ export const capitals = [
         "center": [
             89.65158333,
             28.65467222
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u5eb7\u9a6c\u53bf"
     },
     {
         "site": "130",
@@ -1687,7 +2074,10 @@ export const capitals = [
         "center": [
             88.78400833,
             28.20403611
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u5c97\u5df4\u53bf"
     },
     {
         "site": "131",
@@ -1700,7 +2090,10 @@ export const capitals = [
         "center": [
             87.81893889,
             28.172375
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u5b9a\u7ed3\u53bf"
     },
     {
         "site": "132",
@@ -1713,7 +2106,10 @@ export const capitals = [
         "center": [
             87.21779444,
             28.60510833
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u5b9a\u65e5\u53bf"
     },
     {
         "site": "133",
@@ -1726,7 +2122,10 @@ export const capitals = [
         "center": [
             87.63789722,
             28.94466667
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u62c9\u5b5c\u53bf"
     },
     {
         "site": "134",
@@ -1739,7 +2138,10 @@ export const capitals = [
         "center": [
             89.16695,
             30.11646389
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u5357\u6728\u6797\u53bf"
     },
     {
         "site": "135",
@@ -1752,7 +2154,10 @@ export const capitals = [
         "center": [
             88.72835556,
             30.80464722
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u7533\u624e\u53bf"
     },
     {
         "site": "136",
@@ -1765,7 +2170,10 @@ export const capitals = [
         "center": [
             89.66235556,
             31.58255556
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u73ed\u6208\u53bf"
     },
     {
         "site": "137",
@@ -1778,7 +2186,10 @@ export const capitals = [
         "center": [
             90.81030556,
             31.39724444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u73ed\u6208\u53bf"
     },
     {
         "site": "138",
@@ -1791,7 +2202,10 @@ export const capitals = [
         "center": [
             91.71875556,
             31.609875
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u8272\u5c3c\u533a"
     },
     {
         "site": "139",
@@ -1804,7 +2218,10 @@ export const capitals = [
         "center": [
             92.78747778,
             31.76943889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u8272\u5c3c\u533a"
     },
     {
         "site": "140",
@@ -1817,7 +2234,10 @@ export const capitals = [
         "center": [
             93.88450833,
             31.89081111
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u7d22\u53bf"
     },
     {
         "site": "141",
@@ -1830,7 +2250,10 @@ export const capitals = [
         "center": [
             95.13167778,
             31.59856111
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u4e01\u9752\u53bf"
     },
     {
         "site": "142",
@@ -1843,7 +2266,10 @@ export const capitals = [
         "center": [
             95.95846944,
             31.25624444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u4e01\u9752\u53bf"
     },
     {
         "site": "143",
@@ -1856,7 +2282,10 @@ export const capitals = [
         "center": [
             97.17647778,
             31.17159444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u5361\u82e5\u533a"
     },
     {
         "site": "144",
@@ -1869,7 +2298,10 @@ export const capitals = [
         "center": [
             97.97897778,
             31.25741389
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u6c5f\u8fbe\u53bf"
     },
     {
         "site": "145",
@@ -1882,7 +2314,10 @@ export const capitals = [
         "center": [
             98.73681667,
             31.96359444
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u683c\u53bf"
     },
     {
         "site": "146",
@@ -1895,7 +2330,10 @@ export const capitals = [
         "center": [
             100.9189889,
             31.19977222
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u9053\u5b5a\u53bf"
     },
     {
         "site": "147",
@@ -1908,7 +2346,10 @@ export const capitals = [
         "center": [
             102.8845583,
             30.93012222
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5c0f\u91d1\u53bf"
     },
     {
         "site": "148",
@@ -1921,7 +2362,10 @@ export const capitals = [
         "center": [
             102.333675,
             35.75135556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u4e1c\u5e02",
+        "district": "\u5faa\u5316\u6492\u62c9\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "149",
@@ -1934,7 +2378,10 @@ export const capitals = [
         "center": [
             101.8924278,
             35.26521111
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u9ec4\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6cfd\u5e93\u53bf"
     },
     {
         "site": "150",
@@ -1947,7 +2394,10 @@ export const capitals = [
         "center": [
             101.5001528,
             34.96488056
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u9ec4\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6cfd\u5e93\u53bf"
     },
     {
         "site": "151",
@@ -1960,7 +2410,10 @@ export const capitals = [
         "center": [
             101.5497972,
             33.63840556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u4e45\u6cbb\u53bf"
     },
     {
         "site": "152",
@@ -1973,7 +2426,10 @@ export const capitals = [
         "center": [
             100.6896528,
             31.87276111
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u8272\u8fbe\u53bf"
     },
     {
         "site": "153",
@@ -1986,7 +2442,10 @@ export const capitals = [
         "center": [
             100.4338639,
             30.874525
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u65b0\u9f99\u53bf"
     },
     {
         "site": "154",
@@ -1999,7 +2458,10 @@ export const capitals = [
         "center": [
             100.1779389,
             30.004025
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7406\u5858\u53bf"
     },
     {
         "site": "155",
@@ -2012,7 +2474,10 @@ export const capitals = [
         "center": [
             97.71817778,
             29.77180556
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u5de6\u8d21\u53bf"
     },
     {
         "site": "156",
@@ -2025,7 +2490,10 @@ export const capitals = [
         "center": [
             96.32141111,
             30.86745
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u6d1b\u9686\u53bf"
     },
     {
         "site": "157",
@@ -2038,7 +2506,10 @@ export const capitals = [
         "center": [
             95.34553333,
             30.80071389
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u6d1b\u9686\u53bf"
     },
     {
         "site": "158",
@@ -2051,7 +2522,10 @@ export const capitals = [
         "center": [
             94.66202222,
             30.90700833
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u8fb9\u575d\u53bf"
     },
     {
         "site": "159",
@@ -2064,7 +2538,10 @@ export const capitals = [
         "center": [
             94.31986389,
             30.72143056
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u8fb9\u575d\u53bf"
     },
     {
         "site": "160",
@@ -2077,7 +2554,10 @@ export const capitals = [
         "center": [
             93.51525,
             30.58149444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u5609\u9ece\u53bf"
     },
     {
         "site": "161",
@@ -2090,7 +2570,10 @@ export const capitals = [
         "center": [
             92.50948889,
             30.41785
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u5609\u9ece\u53bf"
     },
     {
         "site": "162",
@@ -2103,7 +2586,10 @@ export const capitals = [
         "center": [
             91.66863889,
             29.81193889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u62c9\u8428\u5e02",
+        "district": "\u58a8\u7af9\u5de5\u5361\u53bf"
     },
     {
         "site": "163",
@@ -2116,7 +2602,10 @@ export const capitals = [
         "center": [
             89.80403056,
             29.28822222
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u4ec1\u5e03\u53bf"
     },
     {
         "site": "164",
@@ -2129,7 +2618,10 @@ export const capitals = [
         "center": [
             89.26841111,
             29.33593889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u6851\u73e0\u5b5c\u533a"
     },
     {
         "site": "165",
@@ -2142,7 +2634,10 @@ export const capitals = [
         "center": [
             88.18423611,
             29.19433889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u62c9\u5b5c\u53bf"
     },
     {
         "site": "166",
@@ -2155,7 +2650,10 @@ export const capitals = [
         "center": [
             87.21857778,
             29.23706667
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u6602\u4ec1\u53bf"
     },
     {
         "site": "167",
@@ -2168,7 +2666,10 @@ export const capitals = [
         "center": [
             86.55095278,
             29.46441389
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u6602\u4ec1\u53bf"
     },
     {
         "site": "168",
@@ -2181,7 +2682,10 @@ export const capitals = [
         "center": [
             85.71855556,
             29.43129722
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u8428\u560e\u53bf"
     },
     {
         "site": "169",
@@ -2194,7 +2698,10 @@ export const capitals = [
         "center": [
             84.78524444,
             29.58028889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u8428\u560e\u53bf"
     },
     {
         "site": "170",
@@ -2207,7 +2714,10 @@ export const capitals = [
         "center": [
             83.93030278,
             29.76523056
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u4ef2\u5df4\u53bf"
     },
     {
         "site": "171",
@@ -2220,7 +2730,10 @@ export const capitals = [
         "center": [
             83.00388889,
             30.24238056
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u65e5\u5580\u5219\u5e02",
+        "district": "\u4ef2\u5df4\u53bf"
     },
     {
         "site": "172",
@@ -2233,7 +2746,10 @@ export const capitals = [
         "center": [
             82.00850278,
             30.69096944
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u666e\u5170\u53bf"
     },
     {
         "site": "173",
@@ -2246,7 +2762,10 @@ export const capitals = [
         "center": [
             81.41294722,
             30.847175
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u666e\u5170\u53bf"
     },
     {
         "site": "174",
@@ -2259,7 +2778,10 @@ export const capitals = [
         "center": [
             80.53974722,
             31.41492222
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u5676\u5c14\u53bf"
     },
     {
         "site": "175",
@@ -2272,7 +2794,10 @@ export const capitals = [
         "center": [
             79.69644722,
             31.34909167
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "176",
@@ -2285,7 +2810,10 @@ export const capitals = [
         "center": [
             79.74123611,
             31.61122778
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "177",
@@ -2298,7 +2826,10 @@ export const capitals = [
         "center": [
             79.81562222,
             31.86059722
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "178",
@@ -2311,7 +2842,10 @@ export const capitals = [
         "center": [
             79.64900833,
             32.07213889
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "179",
@@ -2324,7 +2858,10 @@ export const capitals = [
         "center": [
             79.02831111,
             31.84224444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "180",
@@ -2337,7 +2874,10 @@ export const capitals = [
         "center": [
             80.108525,
             31.46014444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "181",
@@ -2350,7 +2890,10 @@ export const capitals = [
         "center": [
             80.27894722,
             31.06340833
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u672d\u8fbe\u53bf"
     },
     {
         "site": "184",
@@ -2363,7 +2906,10 @@ export const capitals = [
         "center": [
             80.84938333,
             32.47114167
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u9769\u5409\u53bf"
     },
     {
         "site": "185",
@@ -2376,7 +2922,10 @@ export const capitals = [
         "center": [
             81.513225,
             32.21932222
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u9769\u5409\u53bf"
     },
     {
         "site": "186",
@@ -2389,7 +2938,10 @@ export const capitals = [
         "center": [
             82.43976944,
             32.3459
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u9769\u5409\u53bf"
     },
     {
         "site": "187",
@@ -2402,7 +2954,10 @@ export const capitals = [
         "center": [
             83.77243611,
             32.30764444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u6539\u5219\u53bf"
     },
     {
         "site": "188",
@@ -2415,7 +2970,10 @@ export const capitals = [
         "center": [
             85.001425,
             32.00882222
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u963f\u91cc\u5730\u533a",
+        "district": "\u6539\u5219\u53bf"
     },
     {
         "site": "189",
@@ -2428,7 +2986,10 @@ export const capitals = [
         "center": [
             86.08207222,
             31.86635833
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u5c3c\u739b\u53bf"
     },
     {
         "site": "190",
@@ -2441,7 +3002,10 @@ export const capitals = [
         "center": [
             87.31460278,
             31.79213611
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u5c3c\u739b\u53bf"
     },
     {
         "site": "191",
@@ -2454,7 +3018,10 @@ export const capitals = [
         "center": [
             88.46596111,
             31.81631944
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u7533\u624e\u53bf"
     },
     {
         "site": "192",
@@ -2467,7 +3034,10 @@ export const capitals = [
         "center": [
             91.111825,
             30.77115556
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u62c9\u8428\u5e02",
+        "district": "\u5f53\u96c4\u53bf"
     },
     {
         "site": "193",
@@ -2480,7 +3050,10 @@ export const capitals = [
         "center": [
             91.73289444,
             32.39819167
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u90a3\u66f2\u5e02",
+        "district": "\u5b89\u591a\u53bf"
     },
     {
         "site": "194",
@@ -2493,7 +3066,10 @@ export const capitals = [
         "center": [
             92.56271944,
             34.31698333
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u683c\u5c14\u6728\u5e02"
     },
     {
         "site": "195",
@@ -2506,7 +3082,10 @@ export const capitals = [
         "center": [
             93.89466111,
             35.39124722
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u66f2\u9ebb\u83b1\u53bf"
     },
     {
         "site": "196",
@@ -2519,7 +3098,10 @@ export const capitals = [
         "center": [
             98.88483333,
             35.12249444
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u739b\u591a\u53bf"
     },
     {
         "site": "197",
@@ -2532,7 +3114,10 @@ export const capitals = [
         "center": [
             99.62390833,
             35.80693889
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5174\u6d77\u53bf"
     },
     {
         "site": "198",
@@ -2545,7 +3130,10 @@ export const capitals = [
         "center": [
             100.1514694,
             36.34455278
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5171\u548c\u53bf"
     },
     {
         "site": "199",
@@ -2558,7 +3146,10 @@ export const capitals = [
         "center": [
             101.5195639,
             36.307025
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u8d35\u5fb7\u53bf"
     },
     {
         "site": "200",
@@ -2571,7 +3162,10 @@ export const capitals = [
         "center": [
             101.3077972,
             35.80415556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u8d35\u5357\u53bf"
     },
     {
         "site": "201",
@@ -2584,7 +3178,10 @@ export const capitals = [
         "center": [
             101.1118778,
             35.28861389
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u9ec4\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6cfd\u5e93\u53bf"
     },
     {
         "site": "202",
@@ -2597,7 +3194,10 @@ export const capitals = [
         "center": [
             101.9588889,
             36.27025
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u4e1c\u5e02",
+        "district": "\u5316\u9686\u56de\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "203",
@@ -2610,7 +3210,10 @@ export const capitals = [
         "center": [
             101.3536889,
             37.619175
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5317\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u95e8\u6e90\u56de\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "204",
@@ -2623,7 +3226,10 @@ export const capitals = [
         "center": [
             102.8161111,
             35.26126944
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u7518\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u590f\u6cb3\u53bf"
     },
     {
         "site": "205",
@@ -2636,7 +3242,10 @@ export const capitals = [
         "center": [
             102.6339694,
             34.77999444
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u7518\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u590f\u6cb3\u53bf"
     },
     {
         "site": "206",
@@ -2649,7 +3258,10 @@ export const capitals = [
         "center": [
             102.3884611,
             34.24206667
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u7518\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u788c\u66f2\u53bf"
     },
     {
         "site": "207",
@@ -2662,7 +3274,10 @@ export const capitals = [
         "center": [
             102.8005083,
             33.97783333
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u82e5\u5c14\u76d6\u53bf"
     },
     {
         "site": "208",
@@ -2675,7 +3290,10 @@ export const capitals = [
         "center": [
             102.539225,
             33.41105556
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u82e5\u5c14\u76d6\u53bf"
     },
     {
         "site": "209",
@@ -2688,7 +3306,10 @@ export const capitals = [
         "center": [
             102.3687528,
             32.47543056
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7ea2\u539f\u53bf"
     },
     {
         "site": "210",
@@ -2701,7 +3322,10 @@ export const capitals = [
         "center": [
             102.3138778,
             31.70688056
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u9a6c\u5c14\u5eb7\u5e02"
     },
     {
         "site": "211",
@@ -2714,7 +3338,10 @@ export const capitals = [
         "center": [
             101.5818,
             30.54291389
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u9053\u5b5a\u53bf"
     },
     {
         "site": "212",
@@ -2727,7 +3354,10 @@ export const capitals = [
         "center": [
             101.8534472,
             30.02692222
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5eb7\u5b9a\u5e02"
     },
     {
         "site": "213",
@@ -2740,7 +3370,10 @@ export const capitals = [
         "center": [
             102.3027,
             28.88908056
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u51c9\u5c71\u5f5d\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5195\u5b81\u53bf"
     },
     {
         "site": "214",
@@ -2753,7 +3386,10 @@ export const capitals = [
         "center": [
             101.68015,
             27.52352778
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u51c9\u5c71\u5f5d\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u76d0\u6e90\u53bf"
     },
     {
         "site": "215",
@@ -2766,7 +3402,10 @@ export const capitals = [
         "center": [
             100.1725722,
             26.979175
-        ]
+        ],
+        "province": "\u4e91\u5357\u7701",
+        "city": "\u4e3d\u6c5f\u5e02",
+        "district": "\u7389\u9f99\u7eb3\u897f\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "216",
@@ -2779,7 +3418,10 @@ export const capitals = [
         "center": [
             99.64820278,
             27.801175
-        ]
+        ],
+        "province": "\u4e91\u5357\u7701",
+        "city": "\u8fea\u5e86\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u9999\u683c\u91cc\u62c9\u5e02"
     },
     {
         "site": "217",
@@ -2792,7 +3434,10 @@ export const capitals = [
         "center": [
             99.00916111,
             28.38696111
-        ]
+        ],
+        "province": "\u4e91\u5357\u7701",
+        "city": "\u8fea\u5e86\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u94a6\u53bf"
     },
     {
         "site": "218",
@@ -2805,7 +3450,10 @@ export const capitals = [
         "center": [
             98.68639444,
             29.25279167
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u8292\u5eb7\u53bf"
     },
     {
         "site": "219",
@@ -2818,7 +3466,10 @@ export const capitals = [
         "center": [
             98.55459167,
             29.70627778
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u8292\u5eb7\u53bf"
     },
     {
         "site": "220",
@@ -2831,7 +3482,10 @@ export const capitals = [
         "center": [
             98.09036111,
             30.2282
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u5bdf\u96c5\u53bf"
     },
     {
         "site": "221",
@@ -2844,7 +3498,10 @@ export const capitals = [
         "center": [
             97.26349444,
             30.66289444
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u5bdf\u96c5\u53bf"
     },
     {
         "site": "222",
@@ -2857,7 +3514,10 @@ export const capitals = [
         "center": [
             96.72459167,
             31.02466667
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u7c7b\u4e4c\u9f50\u53bf"
     },
     {
         "site": "223",
@@ -2870,7 +3530,10 @@ export const capitals = [
         "center": [
             96.40319444,
             31.60246944
-        ]
+        ],
+        "province": "\u897f\u85cf\u81ea\u6cbb\u533a",
+        "city": "\u660c\u90fd\u5e02",
+        "district": "\u7c7b\u4e4c\u9f50\u53bf"
     },
     {
         "site": "224",
@@ -2883,7 +3546,10 @@ export const capitals = [
         "center": [
             96.48829722,
             32.03568889
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u56ca\u8c26\u53bf"
     },
     {
         "site": "225",
@@ -2896,7 +3562,10 @@ export const capitals = [
         "center": [
             96.54706944,
             32.58440556
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u7389\u6811\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7389\u6811\u5e02"
     },
     {
         "site": "226",
@@ -2909,7 +3578,10 @@ export const capitals = [
         "center": [
             97.49825278,
             33.13920556
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u77f3\u6e20\u53bf"
     },
     {
         "site": "227",
@@ -2922,7 +3594,10 @@ export const capitals = [
         "center": [
             98.35215556,
             32.78471389
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u77f3\u6e20\u53bf"
     },
     {
         "site": "228",
@@ -2935,7 +3610,10 @@ export const capitals = [
         "center": [
             99.54296389,
             31.75630278
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5fb7\u683c\u53bf"
     },
     {
         "site": "229",
@@ -2948,7 +3626,10 @@ export const capitals = [
         "center": [
             100.1809833,
             31.60211111
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7518\u5b5c\u53bf"
     },
     {
         "site": "230",
@@ -2961,7 +3642,10 @@ export const capitals = [
         "center": [
             100.3794222,
             32.22941389
-        ]
+        ],
+        "province": "\u56db\u5ddd\u7701",
+        "city": "\u7518\u5b5c\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u8272\u8fbe\u53bf"
     },
     {
         "site": "231",
@@ -2974,7 +3658,10 @@ export const capitals = [
         "center": [
             100.725125,
             32.95996111
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u73ed\u739b\u53bf"
     },
     {
         "site": "232",
@@ -2987,7 +3674,10 @@ export const capitals = [
         "center": [
             101.2358028,
             33.41404722
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u4e45\u6cbb\u53bf"
     },
     {
         "site": "233",
@@ -3000,7 +3690,10 @@ export const capitals = [
         "center": [
             100.6199278,
             34.15012222
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7518\u5fb7\u53bf"
     },
     {
         "site": "234",
@@ -3013,7 +3706,10 @@ export const capitals = [
         "center": [
             99.95745278,
             34.56158056
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u739b\u6c81\u53bf"
     },
     {
         "site": "235",
@@ -3026,7 +3722,10 @@ export const capitals = [
         "center": [
             98.85397778,
             35.07926111
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u679c\u6d1b\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u739b\u591a\u53bf"
     },
     {
         "site": "236",
@@ -3039,7 +3738,10 @@ export const capitals = [
         "center": [
             98.36585,
             35.72570278
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u90fd\u5170\u53bf"
     },
     {
         "site": "237",
@@ -3052,7 +3754,10 @@ export const capitals = [
         "center": [
             98.10243056,
             36.32291667
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u90fd\u5170\u53bf"
     },
     {
         "site": "238",
@@ -3065,7 +3770,10 @@ export const capitals = [
         "center": [
             99.04158611,
             36.79149722
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u897f\u8499\u53e4\u65cf\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u4e4c\u5170\u53bf"
     },
     {
         "site": "239",
@@ -3078,7 +3786,10 @@ export const capitals = [
         "center": [
             99.72840833,
             36.48398889
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5357\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u5171\u548c\u53bf"
     },
     {
         "site": "240",
@@ -3091,7 +3802,10 @@ export const capitals = [
         "center": [
             100.890875,
             36.94864722
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5317\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u6d77\u664f\u53bf"
     },
     {
         "site": "241",
@@ -3104,7 +3818,10 @@ export const capitals = [
         "center": [
             100.4773361,
             37.46118889
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5317\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u521a\u5bdf\u53bf"
     },
     {
         "site": "242",
@@ -3117,7 +3834,10 @@ export const capitals = [
         "center": [
             100.3164444,
             37.95203611
-        ]
+        ],
+        "province": "\u9752\u6d77\u7701",
+        "city": "\u6d77\u5317\u85cf\u65cf\u81ea\u6cbb\u5dde",
+        "district": "\u7941\u8fde\u53bf"
     },
     {
         "site": "243",
@@ -3130,7 +3850,10 @@ export const capitals = [
         "center": [
             100.9191278,
             38.00186667
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u5f20\u6396\u5e02",
+        "district": "\u5c71\u4e39\u53bf"
     },
     {
         "site": "244",
@@ -3143,7 +3866,10 @@ export const capitals = [
         "center": [
             101.3642444,
             38.56363611
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u5f20\u6396\u5e02",
+        "district": "\u5c71\u4e39\u53bf"
     },
     {
         "site": "245",
@@ -3156,7 +3882,10 @@ export const capitals = [
         "center": [
             102.8453222,
             37.23998611
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u6b66\u5a01\u5e02",
+        "district": "\u5929\u795d\u85cf\u65cf\u81ea\u6cbb\u53bf"
     },
     {
         "site": "246",
@@ -3169,6 +3898,9 @@ export const capitals = [
         "center": [
             103.4023083,
             36.49735833
-        ]
+        ],
+        "province": "\u7518\u8083\u7701",
+        "city": "\u5170\u5dde\u5e02",
+        "district": "\u6c38\u767b\u53bf"
     }
 ];

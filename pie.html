@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="cleartype" content="on">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Pie | echarts-extension-amap</title>
+  <!-- please replace {ak} with your ak & customize your plugins -->
+  <!-- Plugin `AMap.CustomLayer` is required if you are using a version of library less than v1.9.0 -->
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=03526e76418d9af743a39c09e6083a52&plugin=AMap.DistrictLayer,AMap.DistrictSearch,AMap.DistrictLayer,AMap.DistrictSearch"></script>
+  <!-- <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key={ak}&plugin=AMap.Scale,AMap.ToolBar"></script> -->
+  <!-- ECharts CDN -->
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <!-- echarts amap extension -->
+  <!-- <script type="text/javascript" src="../dist/echarts-extension-amap.min.js"></script> -->
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-extension-amap@1.12.0/dist/echarts-extension-amap.min.js"></script>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body, #echarts-amap {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="echarts-amap"></div>
+  <!-- data is only for example -->
+  <script type="text/javascript">
+ const capitals = [
+    {
+        "site": "1",
+        "PL": {
+            "PL_1": 2.59682893476077,
+            "PL_2": 0.436590532538917,
+            "PL_3": 3.34559271903662,
+            "PL_4": 0.14709358750203
+        },
+        "center": [
+            106.2951444,
+            36.58658611
+        ]
+    },
+    {
+        "site": "2",
+        "PL": {
+            "PL_1": 1.32327193615827,
+            "PL_2": 0.561199226581618,
+            "PL_3": 0.0,
+            "PL_4": 2.32122648371053
+        },
+        "center": [
+            106.4983528,
+            37.34613056
+        ]
+    },
+    {
+        "site": "3",
+        "PL": {
+            "PL_1": 0.0293561407965676,
+            "PL_2": 0.493889959065736,
+            "PL_3": 0.340402481862052,
+            "PL_4": 0.547868914599643
+        },
+        "center": [
+            107.0983167,
+            37.76903333
+        ]
+    },
+    {
+        "site": "4",
+        "PL": {
+            "PL_1": 0.135396089050674,
+            "PL_2": 0.0,
+            "PL_3": 0.201863013304411,
+            "PL_4": 0.506674782464342
+        },
+        "center": [
+            107.5423222,
+            38.31731389
+        ]
+    },
+    {
+        "site": "5",
+        "PL": {
+            "PL_1": 2.02961315688113,
+            "PL_2": 4.54830168662567,
+            "PL_3": 3.8970754055415,
+            "PL_4": 6.056153721181
+        },
+        "center": [
+            107.9308139,
+            39.161375
+        ]
+    },
+    {
+        "site": "6",
+        "PL": {
+            "PL_1": 2.78970891670177,
+            "PL_2": 1.67282540278691,
+            "PL_3": 2.27418154127361,
+            "PL_4": 2.69087200939204
+        },
+        "center": [
+            107.6734389,
+            39.82690833
+        ]
+    },
+    {
+        "site": "7",
+        "PL": {
+            "PL_1": 0.102244098030615,
+            "PL_2": 0.0,
+            "PL_3": 0.0,
+            "PL_4": 0.0
+        },
+        "center": [
+            107.5748,
+            40.67210833
+        ]
+    },
+    {
+        "site": "8",
+        "PL": {
+            "PL_1": 0.763881681370005,
+            "PL_2": 0.0,
+            "PL_3": 0.0592843410140894,
+            "PL_4": 0.174715847232505
+        },
+        "center": [
+            107.671725,
+            41.28364722
+        ]
+    },
+    {
+        "site": "9",
+        "PL": {
+            "PL_1": 0.394655532990701,
+            "PL_2": 6.30362150167,
+            "PL_3": 6.24649255740036,
+            "PL_4": 7.31106920550115
+        },
+        "center": [
+            108.39865,
+            41.734175
+        ]
+    }
+];
+
+    var pieSeries = [];
+    function mean(...values) {
+    const sum = values.reduce((total, value) => total + value, 0);
+    return sum / values.length;
+}
+
+    capitals.map(capital => {
+    const maxPLValue = Math.max(...Object.values(capital.PL)); // 获取 PL 中的最大值
+
+  // 添加自定义系列到 pieSeries
+  pieSeries.push({
+    type: 'custom',
+    name: capital.site,
+    coordinateSystem: 'amap',
+    center: capital.center, // 使用每个 capital 的中心作为坐标
+    renderItem: (params, api) => {
+      const layout = api.coord(capital.center); // 计算中心位置
+      const size = 10; // 主矩形的大小
+      return {
+        type: 'group',
+        children: [
+          // 主矩形
+          {
+            type: 'rect',
+            shape: {
+              x: layout[0] - size / 2,
+              y: layout[1] - size / 2,
+              width: size,
+              height: size
+            },
+            style: {
+              fill: 'none',
+              stroke: '#000'
+            }
+          },
+          // 小矩形，根据 PL 的值动态生成
+          ...Object.values(capital.PL).map((value, index) => {
+            const smallSize = 5; // 小矩形的大小
+            const positions = [
+              { x: layout[0] - size / 2, y: layout[1] - size / 2 }, // 左上
+              { x: layout[0] + size / 2 - smallSize, y: layout[1] - size / 2 }, // 右上
+              { x: layout[0] - size / 2, y: layout[1] + size / 2 - smallSize }, // 左下
+              { x: layout[0] + size / 2 - smallSize, y: layout[1] + size / 2 - smallSize } // 右下
+            ];
+            return {
+              type: 'rect',
+              shape: {
+                x: positions[index].x,
+                y: positions[index].y,
+                width: smallSize,
+                height: smallSize
+              },
+              style: {
+                fill: `rgba(0, 0, 255, ${value / maxPLValue})` // 根据 PL 的值调整颜色
+              }
+            };
+          })
+        ]
+      };
+    },
+    data: [{ value: mean(
+        capital.PL.PL_1 || 0,
+        capital.PL.PL_2 || 0,
+        capital.PL.PL_3 || 0,
+        capital.PL.PL_4 || 0
+    ) }]// 所有中心点的位置
+    
+  });
+});
+
+    console.log(pieSeries[0].data)
+
+    var option = {
+      // amap component option
+      amap: {
+        // enable 3D mode
+        // Note that it's suggested to enable 3D mode to improve echarts rendering.
+        viewMode: '3D',
+        // initial options of AMap
+        // See https://lbs.amap.com/api/javascript-api/reference/map#MapOption for details
+        // initial map center [lng, lat]
+        center: [102.278269, 35.391011],
+        // initial map zoom
+        zoom: 4,
+        // whether the map and echarts automatically handles browser window resize to update itself.
+        resizeEnable: true,
+        // customized map style, see https://lbs.amap.com/dev/mapstyle/index for details
+        mapStyle: 'amap://styles/dark',
+        // whether echarts layer should be rendered when the map is moving. Default is true.
+        // if false, it will only be re-rendered after the map `moveend`.
+        // It's better to set this option to false if data is large.
+        renderOnMoving: true,
+        // layers: [disCountry, disProvince],
+
+        // the zIndex of echarts layer for AMap, default value is 2000.
+        // deprecated since v1.9.0, use `echartsLayerInteractive` instead.
+        echartsLayerZIndex: 2000,
+        // whether echarts layer is interactive. Default value is true
+        // supported since v1.9.0
+        echartsLayerInteractive: true,
+        // whether to enable large mode. Default value is false
+        // supported since v1.9.0
+        largeMode: false
+        // Note: Please DO NOT use the initial option `layers` to add Satellite/RoadNet/Other layers now.
+        // There are some bugs about it, we can use `amap.add` instead.
+        // Refer to the codes at the bottom.
+
+        // More initial options...
+      },
+      tooltip : {
+        trigger: 'item'
+      },
+      animation: true,
+      series: pieSeries
+    };
+    // initialize echarts
+    var chart = echarts.init(document.getElementById('echarts-amap'));
+    chart.setOption(option);
+    // get AMap extension component
+    var amapComponent = chart.getModel().getComponent('amap');
+    // get the instance of AMap
+    var amap = amapComponent.getAMap();
+    // var districtSearch = new AMap.DistrictSearch({
+    //   extensions: "all",
+    //   subdistrict: 0,
+    // });
+    // console.log(new AMap.DistrictSearch({
+    //     extensions: "all",
+    //     subdistrict: 0,
+    //   }).search())
+    // districtSearch.search("河北省", function (status, result) {
+
+    //     const outer = [
+    //     new AMap.LngLat(-360, 90, true),
+    //     new AMap.LngLat(-360, -90, true),
+    //     new AMap.LngLat(360, -90, true),
+    //     new AMap.LngLat(360, 90, true),
+    //   ];
+
+    //   const boundaries = result.districtList[0].boundaries;
+    //   const pathArray = [outer];
+
+    //   if (boundaries && Array.isArray(boundaries)) {
+    //     boundaries.forEach(boundary => {
+    //       if (Array.isArray(boundary)) {
+    //         const hole = boundary.map(coord => {
+    //           if (coord instanceof AMap.LngLat) {
+    //             return coord;
+    //           } else {
+    //             console.warn('无效的坐标格式:', coord);
+    //             return null;
+    //           }
+    //         }).filter(latlng => latlng !== null);
+
+    //         if (hole.length > 0) {
+    //           pathArray.push(hole);
+    //         }
+    //       } else {
+    //         console.warn('无效的边界:', boundary);
+    //       }
+    //     });
+    //   } else {
+    //     console.error('边界数据格式错误:', boundaries);
+    //   }
+    //   const polygon = new AMap.Polygon({
+    //     path: pathArray,
+    //     strokeColor: "#99ffff",
+    //     strokeWeight: 4,
+    //     strokeOpacity: 1,
+    //     fillColor: "#fff",
+    //     fillOpacity: 1,
+    //   });
+
+    //   amap.add(polygon);
+    //   });
+
+    // // operations below are the same as amap
+    // amap.addControl(new AMap.Scale());
+    // amap.addControl(new AMap.ToolBar());
+    // add layers
+    // var satelliteLayer = new AMap.TileLayer.Satellite();
+    // var roadNetLayer = new AMap.TileLayer.RoadNet();
+    // amap.add([satelliteLayer, roadNetLayer]);
+    // Add a marker to map
+    // amap.add(new AMap.Marker({
+    //   position: [115, 35]
+    // }));
+    // Make the overlay layer of AMap interactive
+    // amapComponent.setEChartsLayerInteractive(false);
+  </script>
+</body>
+</html>

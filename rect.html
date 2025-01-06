@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Squares</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .square {
+            position: relative;
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            border: 1px solid #000;
+        }
+        .small-square {
+            position: absolute;
+            width: 45px; /* Adjust size as needed */
+            height: 45px; /* Adjust size as needed */
+        }
+        .small-square:nth-child(1) { top: 0; left: 0; }
+        .small-square:nth-child(2) { top: 0; right: 0; }
+        .small-square:nth-child(3) { bottom: 0; left: 0; }
+        .small-square:nth-child(4) { bottom: 0; right: 0; }
+    </style>
+</head>
+<body>
+    <div class="container" id="squaresContainer"></div>
+    <script>
+export const capitals = [{'site': '1', 'PL': {'PL_1': 2.59682893476077, 'PL_2': 0.436590532538917, 'PL_3': 3.34559271903662, 'PL_4': 0.14709358750203}, 'center': [106.2951444, 36.58658611]}, {'site': '2', 'PL': {'PL_1': 1.32327193615827, 'PL_2': 0.561199226581618, 'PL_3': 0.0, 'PL_4': 2.32122648371053}, 'center': [106.4983528, 37.34613056]}, {'site': '3', 'PL': {'PL_1': 0.0293561407965676, 'PL_2': 0.493889959065736, 'PL_3': 0.340402481862052, 'PL_4': 0.547868914599643}, 'center': [107.0983167, 37.76903333]}, {'site': '4', 'PL': {'PL_1': 0.135396089050674, 'PL_2': 0.0, 'PL_3': 0.201863013304411, 'PL_4': 0.506674782464342}, 'center': [107.5423222, 38.31731389]}, {'site': '5', 'PL': {'PL_1': 2.02961315688113, 'PL_2': 4.54830168662567, 'PL_3': 3.8970754055415, 'PL_4': 6.056153721181}, 'center': [107.9308139, 39.161375]}, {'site': '6', 'PL': {'PL_1': 2.78970891670177, 'PL_2': 1.67282540278691, 'PL_3': 2.27418154127361, 'PL_4': 2.69087200939204}, 'center': [107.6734389, 39.82690833]}, {'site': '7', 'PL': {'PL_1': 0.102244098030615, 'PL_2': 0.0, 'PL_3': 0.0, 'PL_4': 0.0}, 'center': [107.5748, 40.67210833]}, {'site': '8', 'PL': {'PL_1': 0.763881681370005, 'PL_2': 0.0, 'PL_3': 0.0592843410140894, 'PL_4': 0.174715847232505}, 'center': [107.671725, 41.28364722]}, {'site': '9', 'PL': {'PL_1': 0.394655532990701, 'PL_2': 6.30362150167, 'PL_3': 6.24649255740036, 'PL_4': 7.31106920550115}, 'center': [108.39865, 41.734175]}, {'site': '10', 'PL': {'PL_1': 0.0678351010717599, 'PL_2': 0.312057575053106, 'PL_3': 1.27982558843716, 'PL_4': 1.55632734270553}, 'center': [107.866625, 42.07049444]}];
+
+        const container = document.getElementById('squaresContainer');
+
+        capitals.forEach(capital => {
+            const square = document.createElement('div');
+            square.className = 'square';
+
+            Object.values(capital.PL).forEach((value, index) => {
+                const smallSquare = document.createElement('div');
+                smallSquare.className = 'small-square';
+                smallSquare.style.backgroundColor = `rgba(0, 0, 255, ${value / Math.max(...Object.values(capital.PL))})`; // Adjust color based on value
+                square.appendChild(smallSquare);
+            });
+
+            container.appendChild(square);
+        });
+    </script>
+</body>
+</html>
